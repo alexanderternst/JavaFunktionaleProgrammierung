@@ -41,11 +41,11 @@ Auch in Java leitet jeder Datentyp von einem Objekt ab. Generelle Datentypen bei
 **Vordefinierte Funktionen**
 
 In Java gibt es auch einige vordefinierte Funktionen, welche verwendet werden können, indem man sie mit einem Lambda Ausdruck überschreibt. Hier gibt es einige Funktionen wie:  
-- Funktionen (DoubleFunction) - Rückgabewerte und Eingabewert - apply Methode
-- Consumer - Nimmt nur Eingabewert kein Rückgabewert - accept Methode
-- Supplier - Gibt Rückgabewert aus - get Methode
-- Operator (Generic: BinaryOperator, Real: DoubleBinaryOperator/StringOperator) - Nimmt mehrere Eingabewerte an und gibt Rückgabewert - apply Methode
-- Predicate - Nimmt Eingabewert an und Boolean zurück, wird meistens für Filtering verwendet z.B. Kontrolliere ob String mit A anfängt - test Methode
+- `Funktion` (DoubleFunction) - Rückgabewerte und Eingabewert - apply Methode
+- `Consumer` - Nimmt nur Eingabewert kein Rückgabewert - accept Methode
+- `Supplier` - Gibt Rückgabewert aus - get Methode
+- `Operator` (Generic: BinaryOperator, Real: DoubleBinaryOperator/StringOperator) - Nimmt mehrere Eingabewerte an und gibt Rückgabewert - apply Methode
+- `Predicate` - Nimmt Eingabewert an und Boolean zurück, wird meistens für Filtering verwendet z.B. Kontrolliere ob String mit A anfängt - test Methode
 
 Bei den meisten vordefinierten Java Funktionen können wir entweder einen spezifischen Datentyp oder einen Generic angeben.
 
@@ -55,7 +55,7 @@ Wird verwendet, um Listen und Arrays auszulesen, auszufiltern und zu formatieren
 Dies können wir alles in einem Befehl tun. Streams sind ähnlich wie LINQ Befehle in C#. Streams können wir auch gut mit anderen Funktionen verbinden, wie z.B. Predicate.  
 Hier könnten wir in dem Predicate eine Bedingung aufstellen (z.B. Name muss mit M anfangen) und dann mit einem Stream jeden Namen aus einer Liste ausgeben, der mit M anfängt.
 
-**HashMap, Map, Primzahl2**
+**HashMap, Map**
 
 In Java gibt es auch sogenannte HashMaps, in Java Map genannt.  
 Diese Maps haben immer zwei Felder, die aus verschiedenen Datentypen oder auch Generics bestehen. Das erste Feld repräsentiert immer den Index.  
@@ -63,7 +63,7 @@ Das heisst, der Wert im Index muss immer eindeutig sein. Wenn wir versuchen, in 
 Hashmaps sind sogenannte `Key-Value` Speicherorte. Wie schon erwähnt, ist das erste Feld der Key und das zweite repräsentiert den Value. Als Beispiel für eine Map habe ich ein Programm namens `Primzahl2` im Package kapitel3, wo wir Primzahlen in einer Map speichern.  
 Maps gibt es auch in C# unter dem Namen `Dictionary`. HashMaps haben auch keine feste Reihenfolge der Elemente.
 
-**Rekursion:**
+**Rekursion**
 Die Rekursion in der Programmierung ist ein Konzept, wobei sich eine Methode immer wieder selbst aufruft, um etwas wie eine Berechnung durchzuführen
 
 
