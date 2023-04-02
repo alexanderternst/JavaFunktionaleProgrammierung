@@ -1,7 +1,3 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
 ## Folder Structure
 
 The workspace contains two folders by default, where:
@@ -13,6 +9,13 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+### Packages
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `lambda`: Lambda Audrücke und Anonyme Klasen
+- `generika`: Generics
+- `vordefiniert`: Vordefinierte Funktionen
+- `kapitel3`: Rekursion
+- `rekursion`: Rekursion Teil 2
+- `stroeme`: Streams
+- `kapitel7`: Streams Teil 2
+- `pruefung_t1`: Pruefung Teil 1
