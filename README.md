@@ -9,7 +9,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-### Packages
+### Packages in `src`
 
 - `lambda`: Lambda Audrücke und Anonyme Klasen
 - `generika`: Generics
