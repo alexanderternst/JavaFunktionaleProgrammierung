@@ -29,7 +29,11 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 - `rekursion`: Rekursion Teil 2
 - `stroeme`: Streams
 - `kapitel7`: Streams Teil 2
+- `s163`: Widgets und Streams Teil 3
 - `pruefung_t1`: Pruefung Teil 1
+
+
+widgets stre
 
 ## Funktionale Programmierung
 Funktionale Programmierung ist ein Programmierparadigma, bei dem der Fokus auf der Verwendung von Funktionen liegt, die als Grundbausteine zur Problemlösung dienen.  
