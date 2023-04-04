@@ -32,9 +32,6 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 - `s163`: Widgets und Streams Teil 3
 - `pruefung_t1`: Pruefung Teil 1
 
-
-widgets stre
-
 ## Funktionale Programmierung
 Funktionale Programmierung ist ein Programmierparadigma, bei dem der Fokus auf der Verwendung von Funktionen liegt, die als Grundbausteine zur Problemlösung dienen.  
 Im Gegensatz zu imperativen Programmierparadigmen, bei denen Anweisungen ausgeführt werden, um den Zustand des Programms zu ändern, werden bei der funktionalen Programmierung Funktionen genutzt, um Daten zu transformieren und zu manipulieren.  
