@@ -30,7 +30,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 - `stroeme`: Streams
 - `kapitel7`: Streams Teil 2
 - `s163`: Widgets und Streams Teil 3
-  - Aufgabe in `FamilienFerien.java`
+  - Aufgabe A-F in `FamilienFerien.java`
 - `pruefung_t1`: Pruefung Teil 1
 
 ## Funktionale Programmierung
