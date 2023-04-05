@@ -50,6 +50,7 @@ public class FamilienFerien
 		 * F) 
 		 * 
 		 */
+		System.out.println("Aufgaben A - F");
 		// A)
 		String output = familien.
 						stream().
@@ -89,6 +90,7 @@ public class FamilienFerien
 				mapToInt(Mensch::getJahrgang).
 				max().
 				getAsInt();
+		System.out.println(x);
 
 		// F)
 		List<Paar> paare = familien.
@@ -96,6 +98,28 @@ public class FamilienFerien
 				map((Familie p) -> new Paar(p.getVater(), p.getMutter())).
 				collect(Collectors.toList());
 		paare.forEach(b -> System.out.println(b.Mann.getVorname() + " " + b.Frau.getVorname()));
+
+		// Datenausgabe von Familienname, Vorname, Jahrgang
+		List<NamVnamJhg> alle = familien
+                .stream()
+                .flatMap(f ->
+                    f.getKinder().stream().map(k ->
+                (new NamVnamJhg(f.getName(),k.getVorname(),k.getJahrgang()))))
+                .collect(Collectors.toList());   
+		alle.forEach(b -> System.out.println(b.getName() + " " + b.getVnam() + " " + b.getJhg()));
+		// Zusätzlich Eltern auch auslesen
+		List<NamVnamJhg> alle2 = familien
+				.stream()
+				.flatMap(f ->
+					Stream.concat(f.getKinder().stream().map(k ->
+				(new NamVnamJhg(f.getName(),k.getVorname(),k.getJahrgang()))),
+				Stream.of(new NamVnamJhg(f.getName(),f.getVater().getVorname(),f.getVater().getJahrgang()),
+				new NamVnamJhg(f.getName(),f.getMutter().getVorname(),f.getMutter().getJahrgang()))))
+				.collect(Collectors.toList());
+		
+		System.out.println("Eltern auch auslesen");
+		alle2.forEach(b -> System.out.println(b.getName() + " " + b.getVnam() + " " + b.getJhg()));
+
 
 		System.out.println("-----------alle Kinder--in String------------------------");
 		

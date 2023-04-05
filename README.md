@@ -36,7 +36,8 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Funktionale Programmierung
 Funktionale Programmierung ist ein Programmierparadigma, bei dem der Fokus auf der Verwendung von Funktionen liegt, die als Grundbausteine zur Problemlösung dienen.  
 Im Gegensatz zu imperativen Programmierparadigmen, bei denen Anweisungen ausgeführt werden, um den Zustand des Programms zu ändern, werden bei der funktionalen Programmierung Funktionen genutzt, um Daten zu transformieren und zu manipulieren.  
-Typische Merkmale der funktionalen Programmierung sind die Verwendung von Funktionen als First-Class-Objekte, die Vermeidung von Seiteneffekten und die Immutabilität von Daten.
+Typische Merkmale der funktionalen Programmierung sind die Verwendung von Funktionen als First-Class-Objekte, die Vermeidung von Seiteneffekten und die Immutabilität (Unveränderbarkeit) von Daten.  
+Keine Seiteneffekte bei Methoden und Rechnungsresultate sollen nicht in Variablen gespeichert werden sondern jedes mal neu gerechnet.
 
 ### Anonyme Klassen
 

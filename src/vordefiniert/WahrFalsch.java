@@ -14,5 +14,15 @@ public class WahrFalsch {
         System.out.println("-----");
         boolean b = students.stream().anyMatch(studentTest);
         System.out.println(b);
+
+        System.out.println("-----");
+        // Schaltjahr überprüfung
+        Predicate<Integer> schaltjahrTest = jahr -> jahr % 4 == 0 && jahr % 100 != 0 || jahr % 400 == 0;
+        for (int x = 2000; x <= 2030; x++)
+        {
+            boolean res = schaltjahrTest.test(x);
+            if (res)
+                System.out.println(x + ": " + res);
+        }
     }
 }
