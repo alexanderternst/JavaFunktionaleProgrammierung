@@ -31,7 +31,8 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 - `kapitel7`: Streams Teil 2
 - `s163`: Widgets und Streams Teil 3
   - Aufgabe A-F in `FamilienFerien.java`
-- `pruefung_t1`: Pruefung Teil 1
+- `pruefung_t1`: Prüfung Teil 1
+- `schlusstest`: Schlussprüfung
 
 ## Funktionale Programmierung
 Funktionale Programmierung ist ein Programmierparadigma, bei dem der Fokus auf der Verwendung von Funktionen liegt, die als Grundbausteine zur Problemlösung dienen.  
