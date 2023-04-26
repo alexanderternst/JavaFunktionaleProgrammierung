@@ -80,7 +80,4 @@ Maps gibt es auch in C# unter dem Namen `Dictionary`. HashMaps haben auch keine 
 
 ### Rekursion
 
-Die Rekursion in der Programmierung ist ein Konzept, wobei sich eine Methode immer wieder selbst aufruft, um etwas wie eine Berechnung durchzuführen
-
-
-
+Die Rekursion in der Programmierung ist ein Konzept, wobei sich eine Methode immer wieder selbst aufruft, um etwas wie eine Berechnung durchzuführen.
