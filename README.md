@@ -55,7 +55,7 @@ Auch in Java leitet jeder Datentyp von einem Objekt ab. Generelle Datentypen bei
 ### Vordefinierte Funktionen
 
 In Java gibt es auch einige vordefinierte Funktionen, welche verwendet werden können, indem man sie mit einem Lambda Ausdruck überschreibt. Hier gibt es einige Funktionen wie:  
-- `Function` (DoubleFunction) - Rückgabewerte und Eingabewert - `apply` Methode
+- `Function` (DoubleFunction) - Rückgabewerte und Eingabewert - apply Methode
 - `Consumer` - Nimmt nur Eingabewert kein Rückgabewert - accept Methode
 - `Supplier` - Gibt Rückgabewert aus - get Methode
 - `Operator` (Generic: BinaryOperator, Real: DoubleBinaryOperator/StringOperator) - Nimmt mehrere Eingabewerte an und gibt Rückgabewert - apply Methode
