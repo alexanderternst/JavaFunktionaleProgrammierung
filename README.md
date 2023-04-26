@@ -22,7 +22,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 ### Packages in `src`
 
-- `lambda`: Lambda Audrücke und Anonyme Klasen
+- `lambda`: Lambda Ausdrücke und Anonyme Klasen
 - `generika`: Generics
 - `vordefiniert`: Vordefinierte Funktionen
 - `kapitel3`: Rekursion u. HashMap bzw. Map
